@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import axios from "axios";
+import { useState } from "react";
+import CustomizedHook from "./AutoFillHook";
 
 const Hero = () => {
+  const [Glycans, setGlycans] = useState({});
+  useEffect(() => {
+    const getLactin = async () => {
+      const GlycansList = await axios.post(
+        "http://localhost:8080/autofillGlycans",
+        {
+          query: "Ace",
+        }
+      );
+      setGlycans(GlycansList.data);
+    };
+    getLactin();
+  }, []);
+
+  console.log(Glycans);
   return (
     <div className="hero-main">
       <div
@@ -91,16 +109,13 @@ const Hero = () => {
               </div>
             </div>
             <div>
-              <input
-                type="text"
-                placeholder="Enter the glycans name...."
-                style={{ width: "100%", padding: "2px" }}
-              />
+            <CustomizedHook Glycans={Glycans}/>
             </div>
           </div>
         </div>
       </div>
-      <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
+
+      <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
         <button
           style={{
             padding: "10px 15px",
