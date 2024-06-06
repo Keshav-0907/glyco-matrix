@@ -33,49 +33,49 @@ const AutoFillGlycans = (req, res) => {
             "status": 200,
             "data": [
                 {
-                    "result": "N-Acetyl-6-deoxy-L-altrosamine"
+                    result: "N-Acetyl-6-deoxy-L-altrosamine"
                 },
                 {
-                    "result": "N-Acetyl-6-deoxy-D-talosamine"
+                    result: "N-Acetyl-6-deoxy-D-talosamine"
                 },
                 {
-                    "result": "N-Acetyl-D-allosamine"
+                    result: "N-Acetyl-D-allosamine"
                 },
                 {
-                    "result": "N-Acetyl-L-altrosamine"
+                    result: "N-Acetyl-L-altrosamine"
                 },
                 {
-                    "result": "N-Acetyl-L-fucosamine"
+                    result: "N-Acetyl-L-fucosamine"
                 },
                 {
-                    "result": "N-Acetyl-D-galactosamine"
+                    result: "N-Acetyl-D-galactosamine"
                 },
                 {
-                    "result": "N-Acetyl-D-glucosamine"
+                    result: "N-Acetyl-D-glucosamine"
                 },
                 {
-                    "result": "N-Acetyl-D-gulosamine"
+                    result: "N-Acetyl-D-gulosamine"
                 },
                 {
-                    "result": "N-Acetyl-L-idosamine"
+                    result: "N-Acetyl-L-idosamine"
                 },
                 {
-                    "result": "N-Acetyl-D-mannosamine"
+                    result: "N-Acetyl-D-mannosamine"
                 },
                 {
-                    "result": "N-Acetylmuramic acid"
+                    result: "N-Acetylmuramic acid"
                 },
                 {
-                    "result": "N-Acetylneuraminic acid"
+                    result: "N-Acetylneuraminic acid"
                 },
                 {
-                    "result": "N-Acetyl-D-quinovosamine"
+                    result: "N-Acetyl-D-quinovosamine"
                 },
                 {
-                    "result": "N-Acetyl-L-rhamnosamine"
+                    result: "N-Acetyl-L-rhamnosamine"
                 },
                 {
-                    "result": "N-Acetyl-D-talosamine"
+                    result: "N-Acetyl-D-talosamine"
                 }
             ]
         })
